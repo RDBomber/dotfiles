@@ -10,6 +10,7 @@ code
 dolphin
 dolphin-plugins
 dunst
+eog
 fastfetch
 firefox
 flameshot
@@ -18,7 +19,6 @@ git
 github-cli
 gnome-software
 grim
-gwenview
 hypridle
 hyprland
 hyprlock
@@ -61,6 +61,7 @@ qt6ct
 refind
 refind-theme-regular-git
 rofi-wayland
+slurp
 stow
 ttf-arimo-nerd
 ttf-roboto-mono-nerd
