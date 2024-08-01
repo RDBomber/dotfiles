@@ -1,0 +1,4 @@
+nwg-displays
+refind-theme-regular-git
+yay
+yay-debug
