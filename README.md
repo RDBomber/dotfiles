@@ -2,7 +2,7 @@
 Hey, my dotfiles aren't really that riced, but if you are looking for as somewhat "minimal" setup, feel free to download the packages needed and use these files.
 
 If you want to use the scripts, please check packages.txt and modify for your use. 
-It shouldn't cause too much of a problem, but I highly recommend you check it.
+It shouldn't cause too much of a problem, but I highly recommend you check it and edit if needed to, before running stow.
 
 For example, the AUR helper script installs yay, you might not need to do this if you already have one.
 The package install script should only work with most Arch-based distros, although you want to check packages.txt because there might be packages you don't need.
