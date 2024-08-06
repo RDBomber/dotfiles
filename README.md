@@ -5,7 +5,7 @@ If you want to use the scripts, please check packages.txt and modify for your us
 It shouldn't cause too much of a problem, but I highly recommend you check it and edit if needed to, before running stow.
 
 For example, the AUR helper script installs yay, you might not need to do this if you already have one.
-The package install script should only work with most Arch-based distros, although you want to check packages.txt because there might be packages you don't need.
+The package install script was made for Arch Linux, so it should work on anything based on it, although you want to check packages.txt because there might be packages you don't need.
 It won't interfere, but if you are on something like EndeavourOS, you don't need mkinitcpio, iirc dracut is used on EndeavourOS.
 
 If you are on other distros such as Fedora or Debian, You'll need to find the package names yourself and install them.
