@@ -1,4 +1,19 @@
 packages:
   fedora:
     - niri
-  flatpak:
+    - xwayland-satellite
+    - noctalia
+    - xdg-desktop-portal-gtk
+    - xdg-desktop-portal-gnome
+    - gnome-keyring
+    - nemo
+    - nemo-fileroller
+    - neovim
+    - gcc
+    - make
+    - git
+    - ripgrep
+    - fd-find
+    - tree-sitter-cli
+    - unzip
+    - neovim
