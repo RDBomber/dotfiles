@@ -28,6 +28,11 @@ window-rule {
   open-focused false
 }
 
+// Browser related window rules
+window-rule {
+  match app-id="chrome-nngceckbapebfimnlniiiahkandclblb-Default"
+  open-floating true
+}
 /*
   Noctalia
   Disable xray on all our surfaces so it looks more realistic.
