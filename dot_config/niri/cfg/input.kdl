@@ -1,0 +1,42 @@
+// Input device configuration.
+// Find the full list of options on the wiki:
+// https://niri-wm.github.io/niri/Configuration:-Input
+input {
+    keyboard {
+        xkb {
+            // You can set rules, model, layout, variant and options.
+            // For more information, see xkeyboard-config(7).
+
+            // For example:
+            // layout "us,ru"
+            // options "grp:win_space_toggle,compose:ralt,ctrl:nocaps"
+            layout "us"
+            options "ctrl:nocaps"
+        }
+
+        // Enable numlock on startup
+        numlock
+    }
+
+    // Next sections include libinput settings.
+    // Omitting settings disables them, or leaves them at their default values.
+    // All commented-out settings here are examples, not defaults.
+    touchpad {
+        tap
+        natural-scroll
+    }
+
+    mouse {
+         accel-profile "flat"
+        // scroll-method "no-scroll"
+    }
+
+
+
+    // warp-mouse-to-focus
+
+    // Focus windows and outputs automatically when moving the mouse into them.
+    // Setting max-scroll-amount="0%" makes it work only on windows already fully on screen.
+    // focus-follows-mouse max-scroll-amount="0%"
+    workspace-auto-back-and-forth
+}

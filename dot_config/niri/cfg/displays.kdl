@@ -1,0 +1,3 @@
+output "LG Electronics LG ULTRAGEAR+ 309NTAB0R952" {
+ mode "3840x2160"
+}
