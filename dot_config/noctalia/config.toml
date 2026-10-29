@@ -1,0 +1,187 @@
+[backdrop]
+blur_intensity = 0.29999999329447746
+enabled = true
+tint_intensity = 0.89999997988343239
+
+[bar.default]
+concave_edge_corners = false
+end = [ "tray", "notifications", "clipboard", "network", "bluetooth", "volume", "brightness", "battery" ]
+margin_ends = 0
+padding = 16
+radius = 0
+start = [ "launcher", "workspaces" ]
+thickness = 32
+widget_spacing = 10
+
+[[control_center.shortcuts]]
+type = "wifi"
+
+[[control_center.shortcuts]]
+type = "bluetooth"
+
+[[control_center.shortcuts]]
+type = "caffeine"
+
+[[control_center.shortcuts]]
+type = "notification"
+
+[[control_center.shortcuts]]
+type = "power_profile"
+
+[dock]
+auto_hide = true
+enabled = true
+position = "right"
+reserve_space = false
+
+[idle]
+behavior_order = [ "lock", "screen-off", "lock-and-suspend" ]
+
+    [idle.behavior.lock]
+    action = "lock"
+    enabled = true
+    timeout = 600.0
+
+    [idle.behavior.lock-and-suspend]
+    action = "lock_and_suspend"
+    enabled = false
+    timeout = 900.0
+
+    [idle.behavior.screen-off]
+    action = "screen_off"
+    enabled = true
+    timeout = 660.0
+
+[location]
+auto_locate = true
+
+[lockscreen_widgets]
+enabled = false
+schema_version = 2
+widget_order = [ "lockscreen-login-box@WAYLAND-1", "lockscreen-login-box@HDMI-A-1" ]
+
+    [lockscreen_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@HDMI-A-1"]
+    box_height = 196.0
+    box_width = 810.0
+    cx = 1280.0
+    cy = 1288.333251953125
+    output = "HDMI-A-1"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@HDMI-A-1".settings]
+        background_color = "surface_container"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_password_reveal = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@WAYLAND-1"]
+    box_height = 196.0
+    box_width = 720.0
+    cx = 640.0
+    cy = 356.0
+    output = "WAYLAND-1"
+    placement_height = 720.0
+    placement_width = 1280.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@WAYLAND-1".settings]
+        background_color = "surface_container"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_password_reveal = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+[osd]
+position = "top_left"
+
+[shell]
+clipboard_confirm_clear_history = false
+clipboard_history_max_entries = 10
+corner_radius_scale = 0.0
+font_family = "Noto Sans Mono"
+launch_apps_as_systemd_services = true
+niri_overview_close_on_launch_enabled = true
+niri_overview_type_to_launch_enabled = true
+popup_shadows = false
+settings_show_advanced = false
+settings_window_translucent = true
+
+    [shell.launcher]
+    app_grid = true
+    pinned = [ "helium", "vesktop", "kitty", "steam" ]
+
+    [shell.mpris]
+    blacklist = [ "helium-browser" ]
+
+    [shell.panel]
+    open_near_click_control_center = true
+
+    [shell.screenshot]
+    directory = "/home/bomber/Pictures/Screenshots"
+
+[theme]
+source = "wallpaper"
+wallpaper_scheme = "m3-content"
+
+    [theme.templates]
+    builtin_ids = [ "btop", "gtk3", "gtk4", "kcolorscheme", "kitty", "niri", "qt" ]
+    community_ids = [ "discord", "micro", "neovim", "prismlauncher", "obs", "superfile" ]
+
+[wallpaper]
+directory = "/home/bomber/Pictures/wallpapers"
+transition = [ "fade" ]
+
+    [wallpaper.default]
+    path = "/home/bomber/Pictures/wallpapers/139221830_p0.jpg"
+
+    [wallpaper.last]
+    path = "/home/bomber/Pictures/wallpapers/139221830_p0.jpg"
+
+    [wallpaper.monitors.HDMI-A-1]
+    path = "/home/bomber/Pictures/wallpapers/139221830_p0.jpg"
+
+    [[wallpaper.favorite]]
+    path = "/home/bomber/Pictures/wallpapers/6b7af79f_original.jpg"
+
+[widget.clock]
+format = "{:%F} {:%H:%M} {:%Z} "
+tooltip_format = "{:%A}"
+
+[widget.network]
+show_label = false
+
+    [widget.network.actions]
+    right = "none"
+
+[widget.tray]
+drawer = true
